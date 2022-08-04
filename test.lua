@@ -8,8 +8,7 @@ COB("Utility", {
     Name = "ClientCrasher",
     Function = function(callback) 
         if callback then
-            pcall(function() 
-                shared.VapeCrashAll() 
+            print("crashed ur mom")
             end) 
         end
     end,
